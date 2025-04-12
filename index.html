@@ -85,10 +85,23 @@
             margin-bottom: 5px;
             text-align: left; /* Force list items to be left-aligned */
         }
+	.logo-row {
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    gap: 40px;
+		    margin-top: 40px;
+		}
+		
+		.logo-row img {
+		    width: 150px;
+		    height: auto;
+		}
 
     </style>
 </head>
 <body>
+	
 
     <div class="container">
         <h1>Welcome to the Fairness-Aware ML Tutorial Series</h1>
@@ -162,10 +175,12 @@
                     <li>Apply post-processing methods to adjust predictions and improve fairness without retraining.</li>
                 </ul>
             </div>
-        </div>
-	    <img src="https://mammoth-ai.eu/wp-content/uploads/2022/09/mammoth.svg" alt="mammoth-logo" width="150" style="margin: 0 20px"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	    <img src="https://www.iccs.gr/wp-content/uploads/2024/10/EN_fundedbyEU_VERTICAL_RGB_POS.png" alt="mammoth-logo" width="150" style="margin: 0 20px"/>
+        </div>    
     </div>
+   <div class="logo-row">
+        <img src="https://mammoth-ai.eu/wp-content/uploads/2022/09/mammoth.svg" alt="Mammoth logo" />
+        <img src="https://www.iccs.gr/wp-content/uploads/2024/10/EN_fundedbyEU_VERTICAL_RGB_POS.png" alt="EU logo" />
+   </div>
 
 </body>
 </html>
